@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Bateria.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Bateria -TC:\CooCox\CoIDE\configuration\ProgramData\Bateria/arm-gcc-link.ld -g">
+      <target file="Bateria.elf" lastModified="15269ba1463">
+         <source file="..\obj\semihosting.o" lastModified="15269a59066"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15269a590d3"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15269a59102"/>
+         <source file="..\obj\main.o" lastModified="15269ba128d"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15269a591bd"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="15269a5923a"/>
+         <source file="..\obj\printf.o" lastModified="15269a592a7"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15269a592f5"/>
+         <source file="..\obj\sh_cmd.o" lastModified="15269a59305"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15269a59343"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="15269a59391"/>
+         <source file="..\obj\misc.o" lastModified="15269a593d0"/>
+      </target>
+   </processor>
+</history>
